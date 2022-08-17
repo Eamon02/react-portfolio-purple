@@ -1,0 +1,44 @@
+.about {
+	padding-top: 6vh;
+	&--wrapper {
+		display: grid;
+		grid-template-columns: 1fr 4fr;
+		gap: 6vh;
+	}
+
+    &--headshot img{
+        outline: 4px solid red;
+        outline-offset: 15px;
+    }
+
+	&--content {
+		h3 {
+			margin: 1vh 0;
+		}
+		h1 {
+			text-transform: uppercase;
+			line-height: 1;
+			width: max-content;
+		}
+		&--name {
+			display: flex;
+			align-items: flex-end;
+			justify-content: flex-start;
+		}
+		&--info {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	&--statment {
+	}
+
+	&--subhead {
+		margin: 4vh 0;
+	}
+
+	p {
+		margin: 2vh 0;
+	}
+}

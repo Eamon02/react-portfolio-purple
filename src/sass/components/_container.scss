@@ -1,0 +1,18 @@
+$desktop: 1200px;
+$laptop: 992px;
+$tablet: 768px;
+$phone: 480;
+
+// tablet and more
+@media screen and (min-width: $tablet) {
+	.container {
+		padding: 0 6vh;
+	}
+}
+
+// Phone
+@media screen and (max-width: $tablet) {
+	.container {
+		padding: 0 3vh;
+	}
+}

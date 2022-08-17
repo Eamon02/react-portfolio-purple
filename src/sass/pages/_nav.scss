@@ -1,0 +1,141 @@
+@use '../base/colors' as *;
+
+.nav {
+	.nav--header {
+		z-index: 2;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 6vh;
+		// padding: 0 6vh;
+		background-color: $color--dark--primary;
+
+		ul {
+			width: 40%;
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	a {
+		font-size: 2rem;
+	}
+
+	&--side {
+		height: 100%;
+		width: 6vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		position: fixed;
+		right: 0;
+
+		.contact {
+			width: 100%;
+			height: auto;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			display: flex;
+			align-items: center;
+			gap: 6vh;
+
+			&::before {
+				content: '';
+				width: 1px;
+				height: 16vh;
+				background-color: $color--white--primary;
+			}
+			&::after {
+				content: '';
+				width: 1px;
+				height: 16vh;
+				background-color: $color--white--primary;
+			}
+		}
+	}
+
+	.nav--btn {
+		cursor: pointer;
+		background: transparent;
+		border: none;
+		outline: none;
+		color: $color--white--primary;
+		display: none;
+	}
+	.contact--mobile {
+		display: none;
+	}
+}
+
+// Laptop and more
+@media screen and (min-width: 992px) {
+}
+
+// less desktop
+@media screen and (max-width: 1200px) {
+	.nav {
+		&--side {
+			display: none;
+		}
+
+		&--btn {
+			display: flex !important;
+			width: 3rem;
+			height: 3rem;
+
+			svg {
+				width: 3rem;
+				height: 3rem;
+			}
+		}
+		&--links {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100vw;
+			height: 100vh;
+			display: grid !important;
+			transform: translateX(100vw);
+		}
+		ul {
+			display: grid !important;
+			align-items: center;
+			transition: 300ms ease-in-out;
+			justify-content: center !important;
+			justify-items: center;
+		}
+	}
+
+	.nav--btn--close {
+		position: absolute;
+		top: 2rem;
+		right: 6rem;
+	}
+
+	.responsive--nav {
+		transform: none !important;
+		backdrop-filter: blur(10px);
+		background-color: rgba($color: $color--dark--primary, $alpha: 0.8);
+	}
+	.contact--mobile {
+		display: block !important;
+	}
+}
+
+// Tablet
+@media screen and (max-width: 992px) {
+	.responsive--nav {
+		width: 60% !important;
+	}
+}
+
+// Phone
+@media screen and (max-width: 768px) {
+	.responsive--nav {
+		width: 100% !important;
+	}
+}

@@ -1,0 +1,14 @@
+//Whites
+
+$color--white--primary: #fff;
+
+
+//Darks
+
+$color--dark--primary: #171513; 
+
+$color--dark--secondary: #1C1B1A;
+
+body{
+    background-color: $color--dark--primary;
+}
