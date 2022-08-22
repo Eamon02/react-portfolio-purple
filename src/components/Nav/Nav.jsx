@@ -97,7 +97,7 @@ function Nav() {
 					</div>
 				</div>
 				<div className='nav--side'>
-					<a href='#contact' className='contact'>
+					<a href='#contact' className='contact--btn'>
 						CONTACT
 					</a>
 				</div>

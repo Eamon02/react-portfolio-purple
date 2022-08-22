@@ -1,4 +1,8 @@
 .about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding: 3vh 3vw;
 	&--wrapper {
 		display: grid;
