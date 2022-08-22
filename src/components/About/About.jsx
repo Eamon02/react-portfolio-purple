@@ -1,10 +1,10 @@
 import React from 'react';
-import aboutImage from '../../assets/Headshot45 3.png';
+import aboutImage from '../../assets/headshot-bw.png';
 
 function About() {
 	return (
-		<section className='about container' id='about'>
-			<div className='about--wrapper container'>
+		<div className='about' id='about'>
+			<div className='about--wrapper'>
 				<div className='about--image'>
 					<img src={aboutImage} alt='' />
 					<div className='headshot--border'></div>
@@ -12,8 +12,8 @@ function About() {
 				<div className='about--content container'>
 					<h3>Hi I'm</h3>
 					<div className='about--content--name'>
-						<h1 className='image--text'>Eamon McHugh</h1>
-						<h3 className='image--text'>MBA</h3>
+						<h1 className='image--text--2'>Eamon McHugh</h1>
+						<h3 className='image--text--2'>MBA</h3>
 					</div>
 					<div className='about--content--info'>
 						<p>Greenwich, CT</p>
@@ -21,7 +21,7 @@ function About() {
 						<p>eamonmchugh2@gmail.com</p>
 					</div>
 					<p className='about--statment'>
-						I’m a Front End Developer based in Connecticut,
+						I am a Front End Developer based in Connecticut,
 						who’s passionate about designing beautiful web
 						pages with accessible user experiences. I love to
 						push my skills to the limit and learn new things.
@@ -43,7 +43,7 @@ function About() {
 					</p>
 				</div>
 			</div>
-		</section>
+		</div>
 	);
 }
 

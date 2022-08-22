@@ -1,18 +1,28 @@
 .about {
-	padding-top: 6vh;
+	padding: 3vh 3vw;
 	&--wrapper {
 		display: grid;
-		grid-template-columns: 1fr 4fr;
+		grid-template-columns: minmax(16vw, 1fr) minmax(min-content, 4fr);
 		gap: 6vh;
 	}
 
-    &--headshot img{
-        outline: 4px solid red;
-        outline-offset: 15px;
-    }
+	&--image {
+		display: grid;
+		grid-template-rows: max-content auto;
+		img {
+			grid-area: 1/2;
+			z-index: 1;
+		}
+		.headshot--border {
+			grid-area: 1/2;
+			border: 7px solid white;
+			border-image: url('../../assets/purple-clouds-border.png') 10;
+			transform: translate(2vw, -2vw);
+		}
+	}
 
 	&--content {
-		h3 {
+		> h3 {
 			margin: 1vh 0;
 		}
 		h1 {
@@ -26,8 +36,10 @@
 			justify-content: flex-start;
 		}
 		&--info {
-			display: flex;
-			justify-content: space-between;
+			// display: flex;
+			// justify-content: space-between;
+			display: grid;
+			grid-template-columns: repeat(3, minmax(auto, 1fr)) 1fr;
 		}
 	}
 
@@ -36,9 +48,52 @@
 
 	&--subhead {
 		margin: 4vh 0;
+		text-transform: uppercase;
 	}
 
 	p {
 		margin: 2vh 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.about {
+		padding-top: 6vw;
+	}
+}
+// less desktop
+@media screen and (max-width: 1200px) {
+	.about {
+		// align-items: ;
+		&--content {
+			// padding: 0 6vh;
+
+			&--info {
+				// display: flex;
+				// justify-content: space-between;
+				display: grid;
+				grid-template-columns: repeat(3, minmax(auto, 1fr));
+			}
+		}
+	}
+}
+
+// Tablet
+@media screen and (max-width: 768px) {
+	.about {
+		&--wrapper {
+			display: block;
+		}
+		&--image {
+			display: none !important;
+		}
+		&--content {
+			h1 {
+				width: min-content !important;
+			}
+			&--info {
+				display: none;
+			}
+		}
 	}
 }

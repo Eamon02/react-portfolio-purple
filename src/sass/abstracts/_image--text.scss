@@ -1,6 +1,16 @@
 .image--text {
-	background-image: url(../../assets/purple-clouds-4.png);
+	background-image: url(../../assets/purple-clouds.jpg);
 	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	height: fit-content;
+	width: max-content;
+}
+.image--text--2 {
+	background-image: url(../../assets/purple-clouds-16-9.png);
+	background-size: cover;
+	height: fit-content;
+	width: max-content;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

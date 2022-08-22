@@ -1,0 +1,21 @@
+@use '../base/colors' as *;
+
+.projects{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    padding: 9vh 0;
+
+    &--blocks{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        gap: 6vw;
+        padding: 9vh 6vw;
+
+        .block{
+            // height: 300px;
+            // width: 300px;
+            background-color: $color--dark--secondary;
+        }
+    }
+}
