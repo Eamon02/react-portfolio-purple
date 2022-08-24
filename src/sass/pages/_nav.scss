@@ -98,11 +98,12 @@
 			right: 0;
 			width: 100vw;
 			height: 100vh;
-			display: grid !important;
+			// display: grid !important;
 			transform: translateX(100vw);
 		}
 		ul {
-			display: grid !important;
+			flex-direction: column;
+			gap: 8rem;
 			align-items: center;
 			transition: 300ms ease-in-out;
 			justify-content: center !important;

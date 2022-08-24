@@ -1,16 +1,26 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
-// import {PurpleWaves} from '../../assets/purple.jpg'
 
 function Header() {
+	// window.addEventListener('scroll', function () {
+	// 	let text = document.getElementById('text--header');
+	// 	let scroll = window.scrollY;
+
+	// 	text.style.top = scroll * .5 + '%';
+	// });
+
 	return (
 		<section id='header'>
 			<Nav />
 			<div className='header--hero container'>
 				<div className='header--hero--image'>
-					<img src={require('../../assets/purple.jpg')} alt='' />
+					{/* <img
+						id='image--header'
+						src={require('../../assets/purple.jpg')}
+						alt=''
+					/> */}
 				</div>
-				<h1> Design. Explore. Create.</h1>
+				<h1 id='text--header'> Design. Explore. Create.</h1>
 			</div>
 		</section>
 	);

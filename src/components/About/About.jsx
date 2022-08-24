@@ -25,11 +25,6 @@ function About() {
 						who’s passionate about designing beautiful web
 						pages with accessible user experiences. I love to
 						push my skills to the limit and learn new things.
-						I’m Eamon McHugh, a Front End Developer based in
-						Connecticut, who’s passionate about designing
-						beautiful web pages with accessible user
-						experiences. I love to push my skills to the limit
-						and learn new things.
 					</p>
 					<h2 className='about--subhead'>Technical Skills</h2>
 					<p className='about--skills'>

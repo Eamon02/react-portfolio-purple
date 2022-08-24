@@ -64,7 +64,7 @@ function Nav() {
 								ABOUT
 							</a>
 						</li>
-						<li>
+						<li onClick={hideNav}>
 							<a
 								href='#projects'
 								onClick={() =>
@@ -97,7 +97,11 @@ function Nav() {
 					</div>
 				</div>
 				<div className='nav--side'>
-					<a href='#contact' className='contact--btn'>
+					<a
+						onClick={hideNav}
+						href='#contact'
+						className='contact--btn'
+					>
 						CONTACT
 					</a>
 				</div>
