@@ -5,6 +5,7 @@
 	-webkit-text-fill-color: transparent;
 	height: fit-content;
 	width: max-content;
+	background-attachment: fixed;
 }
 .image--text--2 {
 	background-image: url(../../assets/purple-clouds-16-9.png);
@@ -13,4 +14,5 @@
 	width: max-content;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	background-attachment: fixed;
 }

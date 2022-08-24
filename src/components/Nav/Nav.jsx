@@ -97,11 +97,7 @@ function Nav() {
 					</div>
 				</div>
 				<div className='nav--side'>
-					<a
-						onClick={hideNav}
-						href='#contact'
-						className='contact--btn'
-					>
+					<a href='#contact' className='contact--btn'>
 						CONTACT
 					</a>
 				</div>

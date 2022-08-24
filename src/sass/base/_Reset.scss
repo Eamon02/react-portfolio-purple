@@ -31,6 +31,12 @@ body {
 	scroll-behavior: smooth;
 }
 
+
+// Remove scroll bar
+body::-webkit-scrollbar{
+	display: none;
+}
+
 /* Set core body defaults */
 body {
 	text-rendering: optimizeSpeed;
