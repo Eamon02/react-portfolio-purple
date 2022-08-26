@@ -17,6 +17,12 @@ function App() {
 					name='description'
 					content="Eamon McHugh's Portfolio"
 				/>
+				<link
+					rel='icon'
+					type='image/png'
+					href='../public/favicon.ico'
+					sizes='16x16'
+				/>
 			</Helmet>
 			<Header />
 			<About />
