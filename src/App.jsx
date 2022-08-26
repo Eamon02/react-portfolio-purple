@@ -13,16 +13,11 @@ function App() {
 			<Helmet>
 				<meta charSet='utf-8' />
 				<title>Eamon McHugh's Portfolio</title>
-				<link
-					rel='canonical'
-					href='https://eamon02.github.io/react-portfolio-purple/'
-				/>
 				<meta
 					name='description'
 					content="Eamon McHugh's Portfolio"
 				/>
 			</Helmet>
-
 			<Header />
 			<About />
 			<Projects />
