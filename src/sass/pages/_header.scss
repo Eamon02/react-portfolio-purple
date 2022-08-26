@@ -65,4 +65,10 @@
 
 // Phone
 @media screen and (max-width: 768px) {
+	.header--hero--image{
+		background-attachment: unset !important;
+		img{
+			background-attachment: fixed;
+		}
+	}
 }

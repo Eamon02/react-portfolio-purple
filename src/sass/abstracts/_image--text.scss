@@ -16,3 +16,11 @@
 	-webkit-text-fill-color: transparent;
 	background-attachment: fixed;
 }
+
+// Phone
+@media screen and (max-width: 768px) {
+	.image--text,
+	.image--text--2 {
+		background-attachment: unset !important;
+	}
+}
