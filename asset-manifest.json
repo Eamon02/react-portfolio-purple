@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-purple/static/css/main.df6e472a.css",
-    "main.js": "/react-portfolio-purple/static/js/main.3477cead.js",
+    "main.css": "/react-portfolio-purple/static/css/main.e697fc41.css",
+    "main.js": "/react-portfolio-purple/static/js/main.a638720f.js",
     "static/media/headshot-bw.png": "/react-portfolio-purple/static/media/headshot-bw.38534b796e5710906a55.png",
     "static/media/purple-clouds-16-9.png": "/react-portfolio-purple/static/media/purple-clouds-16-9.0d6f49d9e29178898eda.png",
     "static/media/purple.jpg": "/react-portfolio-purple/static/media/purple.e2a93e7cbfb0bee76d54.jpg",
@@ -12,11 +12,11 @@
     "static/media/purple-background.png": "/react-portfolio-purple/static/media/purple-background.0b8639ff6d9a115961e0.png",
     "static/media/Kingsview-Partners-Logo-RGB_Final.png": "/react-portfolio-purple/static/media/Kingsview-Partners-Logo-RGB_Final.845006161128df87a5d5.png",
     "index.html": "/react-portfolio-purple/index.html",
-    "main.df6e472a.css.map": "/react-portfolio-purple/static/css/main.df6e472a.css.map",
-    "main.3477cead.js.map": "/react-portfolio-purple/static/js/main.3477cead.js.map"
+    "main.e697fc41.css.map": "/react-portfolio-purple/static/css/main.e697fc41.css.map",
+    "main.a638720f.js.map": "/react-portfolio-purple/static/js/main.a638720f.js.map"
   },
   "entrypoints": [
-    "static/css/main.df6e472a.css",
-    "static/js/main.3477cead.js"
+    "static/css/main.e697fc41.css",
+    "static/js/main.a638720f.js"
   ]
 }
