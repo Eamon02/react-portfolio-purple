@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-purple/static/css/main.e216f588.css",
-    "main.js": "/react-portfolio-purple/static/js/main.506da7f9.js",
+    "main.js": "/react-portfolio-purple/static/js/main.4bc7a196.js",
     "static/media/headshot-bw.png": "/react-portfolio-purple/static/media/headshot-bw.38534b796e5710906a55.png",
     "static/media/purple-clouds-16-9.png": "/react-portfolio-purple/static/media/purple-clouds-16-9.0d6f49d9e29178898eda.png",
     "static/media/purple.jpg": "/react-portfolio-purple/static/media/purple.e2a93e7cbfb0bee76d54.jpg",
@@ -13,10 +13,10 @@
     "static/media/Kingsview-Partners-Logo-RGB_Final.png": "/react-portfolio-purple/static/media/Kingsview-Partners-Logo-RGB_Final.845006161128df87a5d5.png",
     "index.html": "/react-portfolio-purple/index.html",
     "main.e216f588.css.map": "/react-portfolio-purple/static/css/main.e216f588.css.map",
-    "main.506da7f9.js.map": "/react-portfolio-purple/static/js/main.506da7f9.js.map"
+    "main.4bc7a196.js.map": "/react-portfolio-purple/static/js/main.4bc7a196.js.map"
   },
   "entrypoints": [
     "static/css/main.e216f588.css",
-    "static/js/main.506da7f9.js"
+    "static/js/main.4bc7a196.js"
   ]
 }
