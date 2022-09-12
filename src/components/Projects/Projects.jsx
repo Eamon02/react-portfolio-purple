@@ -19,7 +19,7 @@ function Projects() {
 				</div>
 				<div className='block'>
 					<a
-						href='https://fundertrading.com/'
+						href='https://github.com/Eamon02/Funder-Custom-Theme'
 						target='_blank'
 						rel='noopener noreferrer'
 					>
