@@ -81,7 +81,7 @@ function Nav() {
 						</li>
 						<li onClick={hideNav}>
 							<a
-								href={require('../../assets/Eamon McHugh Resume 2022.pdf')}
+								href={require('../../assets/Eamon McHugh Resume - 2023.pdf')}
 								target='_blank'
 								rel='noopener noreferrer'
 							>
