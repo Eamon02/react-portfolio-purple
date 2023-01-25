@@ -6,7 +6,7 @@
 
 ## Description
 
-A personal portfolio highlighting my professional skills as a fullstack web developer. See the published portfolio [here](https://eamon02.github.io/react-portfolio-purple). 
+A personal portfolio highlighting my professional skills as a full-stack web developer. See the published portfolio [here](https://eamon02.github.io/react-portfolio-purple). 
 
 
 ## Technologies Used
